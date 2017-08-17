@@ -9,20 +9,20 @@ Build a simple analytics platform for a Fake Insurance company using the Kaggle 
 
 ## Minimum Requirements
 
-- Build an ETL pipeline/process that takes the CSVs as input and saves into a MySQL database at a detailed level and also calculates summary views. This can be manually triggered by running a script (include instructions of how to do it) or automated somehow
+- Build an Data Pipeline/ETL process that takes the CSVs as input and saves into a MySQL database at a detailed level and also calculates summary views. This can be manually triggered by running a script (include instructions of how to do it) or automated somehow
 - Build an API (REST, Graph or other design pattern) that provides:
   - Detailed information using a different parameters (like agency, month, year, state, etc)
   - Summarized information using different parameters (like agency, month, year, state, etc)
   - An XLS, XLSX or CSV report with Premium info by Agency and Product Line using a date range as parameters
 - Build a web app that includes at least one chart and tables with the detailed and summarized data
 - The web app should also be able to build/run the report by specifying the start and end date to use
-- The ETL pipeline/process and also the logic for generating the report must be done using Pandas
+- The Data Pipeline/ETL process and also the logic for generating the report must be done using Pandas
 - Deployment to any PaaS vendor/host (AWS, Heroku, Digital Ocean, etc.)
-- Integration or Unit tests (at least one of those). You can use pytest or unittest
+- Integration or Unit tests (at least one of those). You can use `pytest` or `unittest`
 
-### Data Flow
+### ETL/Data Pipeline Flow
 
-Coming soon
+![](https://raw.githubusercontent.com/IntuitiveWebSolutions/DataTeamProject/master/data_pipeline.png)
 
 ### Use Cases
 
