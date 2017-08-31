@@ -9,7 +9,7 @@ Build a simple analytics platform for a Fake Insurance company using the Kaggle 
 
 ## Minimum Requirements
 
-- Build an Data Pipeline/ETL process that takes the CSVs as input and saves into a MySQL database at a detailed level and also calculates summary views. This can be manually triggered by running a script (include instructions of how to do it) or automated somehow
+- Build an Data Pipeline/ETL process that takes the CSVs as input and saves into a database at a detailed level and also calculates summary views. These summary view could follow star schema or any other that you think will allow for querying using different views/dimensions. The Data Pipeline can be manually triggered by running a script (include instructions of how to do it!) or automated somehow.
 - Build an API (REST, Graph or other design pattern) that provides:
   - Detailed information using a different parameters (like agency, month, year, state, etc)
   - Summarized information using different parameters (like agency, month, year, state, etc)
@@ -18,7 +18,6 @@ Build a simple analytics platform for a Fake Insurance company using the Kaggle 
 - The web app should also be able to build/run the report by specifying the start and end date to use
 - The Data Pipeline/ETL process and also the logic for generating the report must be done using Pandas
 - Deployment to any PaaS vendor/host (AWS, Heroku, Digital Ocean, etc.)
-- Integration or Unit tests (at least one of those). You can use `pytest` or `unittest`
 
 ### ETL/Data Pipeline Flow
 
@@ -41,11 +40,12 @@ Make sure that your instructions for accessing or otherwise running your code ar
 
 ### Bonus points
 
+- Integration or Unit tests (at least one of those). You can use `pytest` or `unittest`
 - Authentication so that only authorized users can query the API
 - Deployment in AWS ECS for the web server/API
 - Deployment in AWS RDS for the database/backend
 - Good test coverage
-- Documented code and that follows pep8
+- Documented code and that follows pep8 and The Zen of Python
 - API documentation
 - Using docker for deployment
 - Using other AWS stack components relevant for Data Engineering (Lambdas, S3, DynamoDb, Cognito, etc.)
