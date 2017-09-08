@@ -22,10 +22,6 @@ Build a simple analytics platform for a Fake Insurance company using the Kaggle 
 
 ![](https://raw.githubusercontent.com/IntuitiveWebSolutions/DataTeamProject/master/data_pipeline.png)
 
-### Use Cases
-
-![](https://raw.githubusercontent.com/IntuitiveWebSolutions/DataTeamProject/master/use_cases.png)
-
 ## Tech Stack Requirements
 
 The following are requirements on the tech stack. This stack demonstrates mastery of tools our team favors:
