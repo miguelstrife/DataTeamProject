@@ -9,13 +9,12 @@ Build a simple analytics platform for a Fake Insurance company using the Kaggle 
 
 ## Minimum Requirements
 
-- Build an Data Pipeline/ETL process that takes the CSVs as input and saves into a database at a detailed level and also calculates summary views. These summary view could follow star schema or any other that you think will allow for querying using different views/dimensions. The Data Pipeline can be manually triggered by running a script (include instructions of how to do it!) or automated somehow.
+- Build a Data Pipeline/ETL process that takes the CSVs as input and saves into a database at a detailed level while also calculating summarized views. These summarized views could follow star schema or any other that you think will allow for easy querying using different pivots/dimensions. The Data Pipeline can be manually triggered by running a script (include instructions of how to do it!) or automated somehow.
 - Build an API (REST, Graph or other design pattern) that provides:
   - Detailed information using a different parameters (like agency, month, year, state, etc)
   - Summarized information using different parameters (like agency, month, year, state, etc)
-  - An XLS, XLSX or CSV report with Premium info by Agency and Product Line using a date range as parameters
-- Build a web app that includes at least one chart and tables with the detailed and summarized data
-- The web app should also be able to build/run the report by specifying the start and end date to use
+  - An XLS, XLSX or CSV report with Premium info by Agency and Product Line using date range as parameters
+
 - The Data Pipeline/ETL process and also the logic for generating the report must be done using Pandas
 - Deployment to any PaaS vendor/host (AWS, Heroku, Digital Ocean, etc.)
 
@@ -34,24 +33,27 @@ The following are requirements on the tech stack. This stack demonstrates master
 - OS: Ubuntu
 - Server Side Scripting: Python 2.7+ or 3.5+ and Pandas for the API and report
 - Server Framework: Flask or SimpleHTTPServer
-- JavaScript: We use KnockoutJS and Vue JS for newer modules and apps
 
 Make sure that your instructions for accessing or otherwise running your code are extremely clear.
 
 ### Bonus points
 
+We know people may have jobs or other stuff to do leaving them little time available for completing our project so the above are the minimum requirements. Any of the following could make you stand out from the crowd :bowtie: by showing you current proficiency with other skills and tools:
 - Integration or Unit tests (at least one of those). You can use `pytest` or `unittest`
 - Authentication so that only authorized users can query the API
 - Deployment in AWS ECS for the web server/API
 - Deployment in AWS RDS for the database/backend
-- Good test coverage
+- Tests with good test coverage
 - Documented code and that follows pep8 and The Zen of Python
 - API documentation
 - Using docker for deployment
 - Using other AWS stack components relevant for Data Engineering (Lambdas, S3, DynamoDb, Cognito, etc.)
 - Using any CI service like Travis, Shippable, Circle CI, etc. for running the tests
-- Including other reports, tables, dashboards, KPIs or useful analytics
+- Including some predictive analysis like forecasting or categorization as part of the API
 - Incremental ETL that only processes and loads new records
+- Build a web app that consumes the API (we use vuejs and knockout)
+  - Show some charts, tables, dashboards
+  - Let users run reports with different input paramenters and date ranges from there
 
 ## Guidelines
 
