@@ -5,7 +5,7 @@ This is a project that we use for testing potential team members of the Data Tea
 
 ## Assignment
 
-Build a simple analytics platform for a Fake Insurance company using the Kaggle dataset **[Agency Performance Model](https://www.kaggle.com/moneystore/agencyperformance)**. This platform has two components: API and key user web app.
+Build a simple analytics platform for a Fake Insurance company using the Kaggle dataset **[Agency Performance Model](https://www.kaggle.com/moneystore/agencyperformance)**. This platform has two components: An ETL or Data Pipelina and an API.
 
 ## Minimum Requirements
 
