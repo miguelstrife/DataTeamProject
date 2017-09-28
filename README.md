@@ -11,7 +11,7 @@ Build a simple analytics platform for a Fake Insurance company using the Kaggle 
 
 - Build a Data Pipeline/ETL process that takes the CSVs as input and saves into a database at a detailed level while also calculating summarized views. These summarized views could follow star schema or any other that you think will allow for easy querying using different pivots/dimensions. The Data Pipeline can be manually triggered by running a script (include instructions of how to do it!) or automated somehow.
 - Build an API (REST, Graph or other design pattern) that provides:
-  - Detailed information using a different parameters (like agency, month, year, state, etc)
+  - Detailed information using different parameters (like agency, month, year, state, etc)
   - Summarized information using different parameters (like agency, month, year, state, etc)
   - An XLS, XLSX or CSV report with Premium info by Agency and Product Line using date range as parameters
 
