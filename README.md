@@ -37,7 +37,7 @@ Make sure that your instructions for accessing or otherwise running your code ar
 We know people may have jobs or other stuff to do leaving them little time available for completing our project so the above are the minimum requirements. Any of the following could make you stand out from the crowd :bowtie: by showing you current proficiency with other skills and tools:
 - Integration or Unit tests (at least one of those). You can use `pytest` or `unittest`
 - Authentication so that only authorized users can query the API
-- Deployment in AWS ECS for the web server/API
+- Deployment in AWS ECS or something else in AWS for the web server/API (serverless would be even better!)
 - Deployment in AWS RDS for the database/backend
 - Tests with good test coverage
 - Documented code and that follows pep8 and The Zen of Python
